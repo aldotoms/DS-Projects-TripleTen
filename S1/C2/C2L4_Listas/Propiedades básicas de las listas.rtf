@@ -1,0 +1,121 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang10 Cap\'edtulo 4/5 Listas\par
+\b Propiedades b\'e1sicas de las listas\b0\par
+Resumen\par
+En esta lecci\'f3n, aprendiste:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Una lista es una colecci\'f3n de elementos que puede incluir enteros, strings, booleanos o, incluso, otras listas.\par
+{\pntext\f1\'B7\tab}Una lista puede definirse con corchetes [] y con los elementos separados mediante comas.\par
+{\pntext\f1\'B7\tab}Una lista puede contener una mezcla de elementos de distintos tipos de datos.\par
+
+\pard\sa200\sl276\slmult1\b Terminolog\'eda\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Lista: una colecci\'f3n de elementos que puede incluir enteros, strings, booleanos o, incluso, otras listas.\par
+{\pntext\f1\'B7\tab}Elemento: uno de los valores en una lista, tambi\'e9n conocido como \'edtem.\par
+{\pntext\f1\'B7\tab}Lista anidada: lista que contiene otras listas como elementos.\par
+
+\pard\sa200\sl276\slmult1\b Recursos adicionales\b0\par
+Listas de Python: {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/python_lists.asp }}{\fldrslt{https://www.w3schools.com/python/python_lists.asp\ul0\cf0}}}}\f0\fs22\par
+\par
+\b\'cdndices y slices\b0\par
+Resumen\par
+En esta lecci\'f3n, aprendiste c\'f3mo acceder a cada elemento en una lista. Ya sabes c\'f3mo seleccionar un \'fanico elemento o utilizar los \'edndices para seleccionar m\'e1s de uno.\par
+\b Terminolog\'eda\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Listas anidadas: una lista dentro de otra lista, a la que se puede acceder mediante la indexaci\'f3n.\par
+{\pntext\f1\'B7\tab}Acceder a elementos: recuperar un elemento de una lista utilizando su \'edndice, el cual est\'e1 especificado entre corchetes.\par
+{\pntext\f1\'B7\tab}Slicing (segmentaci\'f3n): extraer una porci\'f3n de una lista especificando un rango de \'edndices, mediante la sintaxis lista[inicio:fin], donde el \'edndice inicial es inclusivo, y el \'edndice final es exclusivo.\par
+{\pntext\f1\'B7\tab}Consistencia del tipo de datos: el tipo de datos de los elementos en un slice debe concordar con el tipo de datos de los elementos originales de la lista.\par
+{\pntext\f1\'B7\tab}L\'edmites omitidos: en el slicing, cuando se omite el \'edndice inicial se incluyen todos los elementos hasta el \'edndice final; al omitir el \'edndice final, se incluyen todos los elementos desde el \'edndice inicial hasta el final de la lista.\par
+
+\pard\sa200\sl276\slmult1\b Recursos adicionales\b0\par
+Acceder a los elementos de la lista: {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/python_lists_access.asp }}{\fldrslt{https://www.w3schools.com/python/python_lists_access.asp\ul0\cf0}}}}\f0\fs22\par
+Estructuras de datos:  {{\field{\*\fldinst{HYPERLINK https://docs.python.org/3/tutorial/datastructures.html# }}{\fldrslt{https://docs.python.org/3/tutorial/datastructures.html#\ul0\cf0}}}}\f0\fs22\par
+\par
+\b Modificaci\'f3n de listas\par
+\b0 Terminolog\'eda\par
+\ul Mutable\ulnone : significa que el objeto puede ser modificado despu\'e9s de su creaci\'f3n. Por ejemplo, podemos cambiar, a\'f1adir o eliminar elementos.\par
+\ul Inmutable:\ulnone  un objeto que no puede ser modificado despu\'e9s de su creaci\'f3n. Si intentas modificarlo, se crea un objeto nuevo y diferente que sustituye al original.\par
+Recursos adicionales\par
+\b Lista de Python:\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Agregar: {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/python_lists_add.asp }}{\fldrslt{https://www.w3schools.com/python/python_lists_add.asp\ul0\cf0}}}}\f0\fs22\par
+{\pntext\f1\'B7\tab}Eliminar: {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/python_lists_remove.asp }}{\fldrslt{https://www.w3schools.com/python/python_lists_remove.asp\ul0\cf0}}}}\f0\fs22\par
+{\pntext\f1\'B7\tab}Modificar: {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/python_lists_change.asp }}{\fldrslt{https://www.w3schools.com/python/python_lists_change.asp\ul0\cf0}}}}\f0\fs22\par
+
+\pard\sa200\sl276\slmult1\par
+\b Ordenar listas\b0\par
+Resumen\par
+Saber ordenar listas es importante para organizar los datos y facilitar su b\'fasqueda, an\'e1lisis y presentaci\'f3n.\par
+El m\'e9todo \b sort()\b0 :\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Modifica la lista original.\par
+{\pntext\f1\'B7\tab}Ordena los elementos en orden ascendente por defecto.\par
+{\pntext\f1\'B7\tab}Puedes ordenar en orden descendente utilizando reverse=True.\par
+
+\pard\sa200\sl276\slmult1 La funci\'f3n \b sorted():\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Devuelve una nueva lista ordenada.\par
+{\pntext\f1\'B7\tab}\'datil cuando necesitas mantener intacta la lista original.\par
+{\pntext\f1\'B7\tab}Tambi\'e9n puedes ordenarla en orden descendente con reverse=True.\par
+
+\pard\sa200\sl276\slmult1\b Terminolog\'eda\par
+\b0 Sort: m\'e9todo utilizado para modificar una lista en orden organizando sus elementos en orden ascendente o descendente.\par
+Sorted: una funci\'f3n que devuelve una nueva lista ordenada a partir de los elementos de cualquier iterable.\par
+Orden lexicogr\'e1fico: m\'e9todo de clasificaci\'f3n de strings que tiene en cuenta el orden de los caracteres, incluyendo puntuaci\'f3n, n\'fameros y letras may\'fasculas y min\'fasculas.\par
+Orden ascendente: orden de menor a mayor valor.\par
+Orden descendente: orden de mayor a menor valor.\par
+\b Recursos adicionales\par
+{\b0{\field{\*\fldinst{HYPERLINK https://docs.python.org/3/howto/sorting.html }}{\fldrslt{https://docs.python.org/3/howto/sorting.html\ul0\cf0}}}}\b0\f0\fs22\par
+{{\field{\*\fldinst{HYPERLINK https://docs.python.org/3/library/functions.html#sorted }}{\fldrslt{https://docs.python.org/3/library/functions.html#sorted\ul0\cf0}}}}\f0\fs22\par
+{{\field{\*\fldinst{HYPERLINK https://docs.python.org/3/library/stdtypes.html#list.sort }}{\fldrslt{https://docs.python.org/3/library/stdtypes.html#list.sort\ul0\cf0}}}}\f0\fs22\par
+\par
+\b Listas anidadas\par
+\b0 Resumen\par
+En esta lecci\'f3n aprendiste c\'f3mo acceder a las listas anidadas. Esta es una de las estructuras m\'e1s utilizadas en la ciencia de datos. No dudes en revisar esta lecci\'f3n si tienes alguna duda.\par
+\b Pr\'e1ctica adicional\b0\par
+Listas de ejercicios:  {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/python_lists_exercises.asp }}{\fldrslt{https://www.w3schools.com/python/python_lists_exercises.asp\ul0\cf0}}}}\f0\fs22\par
+\par
+\b Procesamiento de strings\b0\par
+Resumen\par
+En esta lecci\'f3n aprendiste algunas t\'e9cnicas b\'e1sicas de procesamiento de texto. Con el m\'e9todo split() ahora puedes dividir un string en secciones m\'e1s peque\'f1as y almacenarlas en una lista. En cambio, si tienes una lista de strings, puedes unirlos en un solo string utilizando el m\'e9todo join().\par
+\b Terminolog\'eda\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Divisi\'f3n de strings en una lista: utiliza el m\'e9todo split() para dividir un string en una lista de substrings con base en un delimitador especificado o, por defecto, en espacios.\par
+{\pntext\f1\'B7\tab}Combinaci\'f3n de los elementos de una lista en un string: utiliza el m\'e9todo join() para concatenar elementos de una lista en un solo string con un car\'e1cter separador especificado entre cada elemento.\par
+
+\pard\sa200\sl276\slmult1\b Recursos adicionales\b0\par
+Divisi\'f3n de Python: {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/ref_string_split.asp }}{\fldrslt{https://www.w3schools.com/python/ref_string_split.asp\ul0\cf0}}}}\f0\fs22\par
+Uni\'f3n de Python: {{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/python/ref_string_join.asp }}{\fldrslt{https://www.w3schools.com/python/ref_string_join.asp\ul0\cf0}}}}\f0\fs22\par
+\par
+Siguientes pasos\par
+En este cap\'edtulo dominaste los conceptos clave sobre las listas, una estructura de datos esencial en Python:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Indexaci\'f3n de listas:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1 Acceder a elementos espec\'edficos utilizando los \'edndices positivos y negativos.\par
+{\pntext\f1\'B7\tab}Entender que la indexaci\'f3n comienza desde 0 para el primer elemento.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Colecciones ordenadas:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1 Comprender que cada elemento en una lista tiene un \'edndice \'fanico que refleja su posici\'f3n.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Slicing:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1 Extraer un subconjunto de elementos especificando un rango de \'edndices.\par
+{\pntext\f1\'B7\tab}Aprender que el l\'edmite superior en el slicing (segmentaci\'f3n) no es inclusivo.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Listas anidadas:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1 Las listas pueden contener otras listas como elementos, lo que da lugar a estructuras de datos complejas.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Consistencia de los tipos de datos:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1 Reconocer la importancia de mantener los tipos de datos de manera consistente dentro de los slices de listas.\par
+
+\pard\sa200\sl276\slmult1\'a1Ya est\'e1s listo para comenzar tu primer proyecto! Con tu s\'f3lido entendimiento de las listas y otros conceptos fundamentales de Python, est\'e1s bien preparado para abordar este reto.\par
+Recuerda: cada proyecto es una oportunidad para aplicar lo que has aprendido y hacer gala de tus habilidades. \'a1Lo har\'e1s muy bien, as\'ed que met\'e1monos de lleno en este proyecto!\par
+}
+ 
